@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="探索自动化、数据与智能应用的项目展示空间。">
+  <meta name="theme-color" content="#0b1012">
+  <title>Project Lab · 项目实验室</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="nav wrap"><a class="logo" href="#"><span class="mark">✳</span> PROJECT LAB<span class="tag">实验室</span></a><nav aria-label="主导航"><a href="#projects">项目</a><a href="#approach">方法</a><a class="repo" href="https://github.com/luckycolortree/Firstrepo" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav></header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> IDEAS INTO SYSTEMS</p><h1>让想法，<br>进入<span>运行状态。</span></h1><p class="intro">探索自动化、数据与智能应用。<br>在这里，把复杂问题拆解成可用的解决方案。</p><a class="button" href="#projects">探索项目 <span>↘</span></a><div class="hero-note">BUILD · EXPERIMENT · ITERATE<span>从一个想法开始</span></div></div>
+      <div class="blueprint" aria-hidden="true"><div class="diagram-label">SYSTEM OVERVIEW / 001</div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="core">✳<small>PROJECT<br>ENGINE</small></div><div class="node n1">01 <strong>想法输入</strong><small>IDEA INPUT</small></div><div class="node n2">02 <strong>构建与验证</strong><small>BUILD & TEST</small></div><div class="node n3">03 <strong>持续迭代</strong><small>KEEP ITERATING</small></div><div class="diagram-bottom"><span>● SYSTEM READY</span><span>探索 / 构建 / 连接</span></div></div>
+    </section>
+    <section class="projects wrap" id="projects"><div class="section-head"><div><p class="eyebrow">01 / SELECTED EXPLORATIONS</p><h2>项目探索<span>精选方向</span></h2></div><p class="muted">以下为展示用示例项目，非实际交付记录。</p></div><div class="filters" role="group" aria-label="按项目方向筛选"><button class="active" data-filter="all" aria-pressed="true">全部项目 <span>03</span></button><button data-filter="automation" aria-pressed="false">流程自动化</button><button data-filter="data" aria-pressed="false">数据应用</button><button data-filter="ai" aria-pressed="false">智能探索</button></div><p id="filter-status" class="sr-only" aria-live="polite">显示 3 个项目</p>
+      <div class="cards">
+        <article class="card" data-category="automation"><div class="art art-flow" aria-hidden="true"><span class="art-id">LAB / 001</span><div class="flow"><i>输入</i><b>→</b><i>处理</i><b>→</b><i>完成</i></div><span class="art-caption">WORKFLOW AUTOMATION</span></div><div class="card-body"><p class="card-meta">流程自动化 <span>概念示例</span></p><h3>让重复工作，自动发生。</h3><p>连接分散的业务步骤，探索从任务触发到结果回传的自动化流程。</p><div class="card-foot"><span>Workflow · Integration</span><button data-project="automation" aria-label="查看流程自动化项目详情">↗</button></div></div></article>
+        <article class="card" data-category="data"><div class="art art-data" aria-hidden="true"><span class="art-id">LAB / 002</span><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-caption">DATA INTO PERSPECTIVE</span></div><div class="card-body"><p class="card-meta">数据应用 <span>概念示例</span></p><h3>从数据中，看见方向。</h3><p>把零散信息组织成清晰视图，让趋势、变化与异常更容易被理解。</p><div class="card-foot"><span>Analytics · Visualization</span><button data-project="data" aria-label="查看数据应用项目详情">↗</button></div></div></article>
+        <article class="card" data-category="ai"><div class="art art-ai" aria-hidden="true"><span class="art-id">LAB / 003</span><div class="ai-symbol">✳</div><span class="art-caption">HUMAN × INTELLIGENCE</span></div><div class="card-body"><p class="card-meta">智能探索 <span>概念示例</span></p><h3>为知识，找到新的入口。</h3><p>探索文档提取、内容归纳与知识检索，让信息成为解决问题的起点。</p><div class="card-foot"><span>Knowledge · AI</span><button data-project="ai" aria-label="查看智能探索项目详情">↗</button></div></div></article>
+      </div>
+    </section>
+    <section class="approach wrap" id="approach"><div><p class="eyebrow">02 / THE APPROACH</p><h2>小步构建。<br><span>让每次迭代都有意义。</span></h2></div><div class="steps"><div><span>01</span><h3>从问题出发</h3><p>先理解场景，再选择工具。把目标和边界说清楚。</p></div><div><span>02</span><h3>用原型验证</h3><p>用最小可用方案检验想法，让结果回答问题。</p></div><div><span>03</span><h3>在反馈中前进</h3><p>记录观察、修正细节，让每个版本更接近目标。</p></div></div></section>
+    <section class="closing wrap"><p class="eyebrow">THE NEXT COMMIT STARTS HERE</p><h2>下一个想法，<br>值得被实现。</h2><a href="https://github.com/luckycolortree/Firstrepo" class="button" target="_blank" rel="noopener noreferrer">在 GitHub 查看项目 <span>↗</span></a></section>
+  </main>
+  <footer class="wrap"><a class="logo" href="#">✳ PROJECT LAB</a><span>保持好奇，持续构建。</span><span>示例展示站 · GitHub Pages</span></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="close" aria-label="关闭详情">×</button><p class="eyebrow">CONCEPT / 项目概念</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p class="dialog-note">这是用于展示页面设计的概念内容，尚未实现对应业务系统。</p><button class="button close-action">返回项目</button></dialog>
+</body>
+</html>
